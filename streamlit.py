@@ -5,6 +5,7 @@ import numpy as np
 
 # Load the pre-trained model
 model = tf.keras.models.load_model('simpleRNN_IMDB_sentiment Analysis_part 2.h5')
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Load the word index dictionary for IMDB dataset
 word_index = tf.keras.datasets.imdb.get_word_index()
@@ -51,3 +52,5 @@ if st.button("Analyze Sentiment"):
 
 # Footer
 st.write("This app uses a pre-trained SimpleRNN model to analyze the sentiment of movie reviews from the IMDB dataset.")
+
+
