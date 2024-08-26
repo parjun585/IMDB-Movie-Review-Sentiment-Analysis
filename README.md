@@ -108,6 +108,12 @@ Install them with:
 pip install -r requirements.txt
 ```
 
+Try the deployed version with:
+```bash
+Given Link(https://imdbmovie-review-sentiment-analysis.streamlit.app/)
+```
+
+
 ### Acknowledgments
 
 - The model is based on the [IMDB dataset](https://ai.stanford.edu/~amaas/data/sentiment/), a widely-used dataset for binary sentiment classification.
