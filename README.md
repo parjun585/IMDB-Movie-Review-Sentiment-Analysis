@@ -108,7 +108,7 @@ Install them with:
 pip install -r requirements.txt
 ```
 
-Try the deployed version with given Link:
+Try the deployed version with given [Link](https://imdbmovie-review-sentiment-analysis.streamlit.app/):
 ```bash
 https://imdbmovie-review-sentiment-analysis.streamlit.app/
 ```
