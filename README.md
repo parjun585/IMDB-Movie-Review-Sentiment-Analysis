@@ -63,7 +63,7 @@ To run this project, you'll need to install the following dependencies:
 The repository is organized as follows:
 
 ```plaintext
-├── app.py                 # Main application file for Streamlit
+├── streamlit.py                 # Main application file for Streamlit
 ├── simpleRNN_IMDB_sentiment_Analysis_part_2.h5   # Pre-trained model file
 ├── README.md              # Project documentation (this file)
 └── requirements.txt       # Dependencies required for the project
