@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load the pre-trained model
-model = tf.keras.models.load_model('simpleRNN_IMDB_sentiment Analysis_part 2.h5')
+model = load_model('simpleRNN_IMDB_sentiment Analysis_part 2.h5')
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
 # Load the word index dictionary for IMDB dataset
